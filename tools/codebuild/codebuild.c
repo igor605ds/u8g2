@@ -1770,6 +1770,15 @@ struct controller controller_list[] =
       { "384x240" },
       { NULL }
     }
+  },
+
+  {
+    "rw1065i", 	16, 	8, 	"u8g2_ll_hvline_horizontal_right_lsb", "u8x8_cad_ssd13xx_i2c", "", COM_I2C,
+    "", /* is_generate_u8g2_class= */ 0,
+    {
+      { "128x64" },
+      { NULL }
+    }
   }
 };
 
